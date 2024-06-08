@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://graph.org/file/6b6ceb4d289d5f03ee444.jpg https://graph.org/file/48ef78ea7ee54c117ee73.jpg https://graph.org/file/0a03bf16ab7933030c79d.jpg https://graph.org/file/41ec23a37c7bb2dc3616e.jpg https://graph.org/file/47d0378c34282c7927ba8.jpg https://graph.org/file/5da52e67acfca49687add.jpg https://graph.org/file/b5eba379d5a37f1f82cdc.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/8c68c7437f0a35069b8dc.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0a03bf16ab7933030c79d.jpg'))
 CODE = (environ.get('CODE', 'https://te.legra.ph/sahils-QR-05-26'))
 
