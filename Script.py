@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """Hᴇʏ {}, {}\n\nI ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/BinaryQuest">Bɪɴᴀʀʏ Qᴜᴇꜱᴛ</a>"""
+    START_TXT = """Hᴇʏ {}, {}\n\n<b>I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/BinaryQuest">Bɪɴᴀʀʏ Qᴜᴇꜱᴛ☠️</b></a>"""
 
-    GSTART_TXT = """Hᴇʏ {},\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/BinaryQuest">Bɪɴᴀʀʏ Qᴜᴇꜱᴛ</a>"""
+    GSTART_TXT = """Hᴇʏ {},\n\n<b>I ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/BinaryQuest">Bɪɴᴀʀʏ Qᴜᴇꜱᴛ☠️</b></a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
     
