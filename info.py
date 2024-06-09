@@ -51,8 +51,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://letsearn:fakefacebook602@cluster0.o0trvz0.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "dbSubh")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_file')
+DATABASE_NAME = environ.get('DATABASE_NAME', "dbhero")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tg_file')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
