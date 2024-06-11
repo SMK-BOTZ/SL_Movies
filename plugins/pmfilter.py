@@ -1776,8 +1776,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🖤 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🖤', url='https://t.me/BinaryQuest')
         ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇꜱ', url='https://https://t.me/+oGLA6aKxY8VlZGM1'),
-            InlineKeyboardButton('Wᴇʙ-Sʜᴏᴡꜱ', url='https://https://t.me/+kSmEY46pt7NmYTJl')
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ •', url='https://https://t.me/+oGLA6aKxY8VlZGM1'),
+            InlineKeyboardButton('• Wᴇʙ-Sʜᴏᴡꜱ •', url='https://https://t.me/+kSmEY46pt7NmYTJl')
         ],[
             InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/BQRequest')
         ],[
@@ -1862,7 +1862,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rendr":
-        await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n❂ ʀᴀᴍ ●●●●●●●◌◌◌\n✇ ᴄᴘᴜ ●●●●●●●◌◌◌\n✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰\n\nᴠ4.2 [sᴛᴀʙʟᴇ] """, show_alert=True)
+        await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n❂ ʀᴀᴍ ●●●●●●●◌◌◌\n✇ ᴄᴘᴜ ●●●●●●●◌◌◌\n✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰\n\nᴠ4.2 [sᴛᴀʙʟᴇ] \nBy @BinaryQuest""", show_alert=True)
 
     elif query.data == "credits":
         buttons = [[
