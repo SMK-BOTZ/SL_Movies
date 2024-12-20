@@ -13,20 +13,20 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '16575077'))
-API_HASH = environ.get('API_HASH', '1c8c0bcb55c14e0fd8078058966b6a11')
+API_ID = int(environ.get('API_ID', '28243586'))
+API_HASH = environ.get('API_HASH', '4022d5686b9b7a7cf8891205921a0ab3')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7017075450:AAFcX6W5My-lNjUV10WIDLbLECXE-vCTN_Y")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/6b6ceb4d289d5f03ee444.jpg https://graph.org/file/48ef78ea7ee54c117ee73.jpg https://graph.org/file/0a03bf16ab7933030c79d.jpg https://graph.org/file/41ec23a37c7bb2dc3616e.jpg https://graph.org/file/47d0378c34282c7927ba8.jpg https://graph.org/file/b5eba379d5a37f1f82cdc.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://envs.sh/k1E.jpg https://envs.sh/k1D.109.jpg https://envs.sh/kR-.png https://envs.sh/kR6.png https://envs.sh/kRy.jpg https://envs.sh/kRX.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://i.imgur.com/TVknp4z.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/8c68c7437f0a35069b8dc.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0a03bf16ab7933030c79d.jpg'))
-CODE = (environ.get('CODE', 'https://te.legra.ph/sahils-QR-05-26'))
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/644e8c6a11a01cde71a44-69cdfeea7d17d11403.png")
+SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/7Z5.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/k1D.109.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/4f1fb49a940992095c09c-75eba3b2a1e96be6dd.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
@@ -34,24 +34,24 @@ STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1702061654').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001728124509 -1001575852154 -1001621828922').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7357726710').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002164008302 -1002148393685 -1002208018594 -1002198215580 -1002356823829').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1001506065058') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1002440325143') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001531531268') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001506065058') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002440325143') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002404151838') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://letsearn:fakefacebook602@cluster0.o0trvz0.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "dbhero")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://smkbotz:SCwKM3k5jv4TZMWl@cluster0.fvyrg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tg_file')
 
 # Verify
@@ -127,7 +127,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001768252356'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002328437358'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
